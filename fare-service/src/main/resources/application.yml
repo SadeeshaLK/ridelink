@@ -1,0 +1,21 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: fare-service
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/ridelink_fare_db}
+
+fare:
+  base-fare: 150.00         # Base start fare in LKR
+  rate-per-km: 80.00        # Standard rate per kilometer
+  rate-per-minute: 5.00     # Time-based rate per minute
+  currency: LKR
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
