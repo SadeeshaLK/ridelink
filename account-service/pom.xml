@@ -14,7 +14,7 @@
 
     <artifactId>account-service</artifactId>
     <name>Account Service</name>
-    <description>RideLink Account Microservice (Owner: Member 1)</description>
+    <description>RideLink Account Microservice - Senavirathne W.S.S (IT24100026)</description>
 
     <dependencies>
         <!-- Spring Boot Web -->
